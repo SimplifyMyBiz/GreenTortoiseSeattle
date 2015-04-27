@@ -33,7 +33,7 @@
 		<![endif]-->
 	</head>
 	
-	<body class="bg-slider" data-spy="scroll" data-target=".navbar-custom">
+	<body class="bg-static" data-spy="scroll" data-target=".navbar-custom">
 	
 		
 		<div class="preloader">
@@ -57,7 +57,9 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				  </button>
-				  <a class="navbar-brand" href="http://www.frontdeskanywhere.com/" target="_blank"><h4>Book Now</h4></a>
+				  <button type="button" class="btn btn-success btn-lg">
+					  <a href="https://bookings.frontdeskanywhere.net/#/account/F130404D" target="_blank">Book Now</a>
+					</button>
 				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
@@ -69,6 +71,16 @@
 					<li class="page-scroll"><a href="#events">Events</a></li>
 					<li class="page-scroll"><a href="#directions">Directions</a></li>					
 					<li class="page-scroll"><a href="#contact">Contact</a></li>
+					<li class="dropdown">
+						<a href="components.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Social <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="https://www.facebook.com/GreenTortoiseSeattle" target="_blank"><i class="fa fa-facebook"></i>&nbsp;&nbsp;Facebook</a></li>
+							<li><a href="https://twitter.com/gtseattlehostel" target="_blank"><i class="fa fa-twitter"></i>&nbsp;&nbsp;Twitter</a></li>
+							<li><a href="http://www.yelp.com/biz/green-tortoise-hostel-seattle" target="_blank"><i class="fa fa-yelp"></i>&nbsp;&nbsp;Yelp</a></li>
+							<li><a href="http://www.tripadvisor.com/Hotel_Review-g60878-d123038-Reviews-The_Green_Tortoise_Hostel-Seattle_Washington.html" target="_blank"><i class="fa fa-thumbs-up"></i>&nbsp;&nbsp;TripAdvisor</a></li>					
+						</ul>
+					</li>
+
 				  </ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
@@ -78,111 +90,23 @@
 
 				
 		<!-- Home Slider -->	
-		<div id="home" class="fullSection">
+		<div id="slider" class="fullSection">
 			<div class="container">
 				
-				<!-- fullscreen-slider -->
-				<div id="fullscreen-slider" class="carousel slide wow bounceIn showdelay4" data-ride="carousel">
-					<!-- Indicators -->
-					  <ol class="carousel-indicators">
-						<li data-target="#fullscreen-slider" data-slide-to="0" class="active"></li>
-						<li data-target="#fullscreen-slider" data-slide-to="1"></li>
-						<li data-target="#fullscreen-slider" data-slide-to="2"></li>
-					  </ol>
-
-				  <!-- Wrapper for slides -->
-				  <div class="carousel-inner">
-					<div class="item active">
-						<div class="slider-caption"> 
-							<h2>The Green Tortoise Hostel</h2>
-							<p>Beautiful places, great food, and sociable people are the only essentials for gratifying travel experiences.</p>								
-								<div class="page-scroll">
-								<a href="#amenities" class="btn btn-custom btn-lg">Learn More</a>	
-								</div>
-						</div>						
-					</div>
-					<div class="item">
-						<div class="slider-caption">
-							<i class="fa fa-bus"></i> 
-							<h2>About Us</h2>
-							<p>
-								The World Famous Green Tortoise Adventure Travel began over 40 years ago, with one sturdy bus and the realization that beautiful places, great food, and sociable people were the only essentials for gratifying travel experiences. The Green Tortoise hostels in San Francisco and Seattle are built on this fine tradition. The Green Tortoise San Francisco and Seattle hostels are created around a social communal experience. We have expanded and refined the hostel experience with free internet, free meals, private bathrooms, and comforts that make the green tortosie unique.
-							</p>
-							<p>
-								The Green Tortoise hostel is located across from the world famous Pike Place Market, (Pike's Place Market) in the true center of the City, on the corner of 1st and Pike Street.
-							</p>								
-							<a href="#" class="btn btn-custom btn-lg" data-toggle="modal" data-target="#slider-modal">More History</a>	
+				<div class="top-heading text-center">
+					<h1>Green Tortoise Hostel Seattle</h1>
+					<p>Centrally located across the street from the world famous Pike Place Market.</p>	
+					
+					<div class="wow fadeInUp showdelay6">
+						<div class="embed-responsive embed-responsive-16by9">
+						  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LYl086_MMZA"></iframe>
 						</div>
-					</div>
-					<div class="item">
-						<div class="slider-caption"> 
-							<i class="fa fa-camera-retro fa-1x"></i>
-							<h2>Green Tortoise Video</h2>
-							<p>
-								Travel Annex spotlight on the GT.
-							</p>								
-							<a href="#" class="btn btn-custom btn-lg" data-toggle="modal" data-target="#video-modal">Watch</a>	
-						</div>
-					</div>
-				  </div>
-
-				  <!-- Controls -->
-				  <a class="left carousel-control" href="#fullscreen-slider" role="button" data-slide="prev">
-						<!-- <span class="glyphicon glyphicon-chevron-left"></span> -->
-						<span class="fa fa-chevron-left"></span>
-				  </a>
-				  <a class="right carousel-control" href="#fullscreen-slider" role="button" data-slide="next">
-						<!-- <span class="glyphicon glyphicon-chevron-right"></span> -->
-						<span class="fa fa-chevron-right"></span>
-				  </a>
+						<br>
+					</div>	
 				</div>
-				<!-- fullscreen-slider -->
-				
-				<!-- slider-modal -->					
-				<div class="modal fade" id="slider-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
-				  <div class="modal-dialog modal-lg">
-					<div class="modal-content">
-					  <div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-						<h2 class="modal-title" id="myModalLabel1">The Green Tortoise History</h2>
-					  </div>
-					  <div class="modal-body">								
-							<p><img class="img-responsive pull-left" src="images/gtbus.jpg" alt="Green Tortoise Bus"/>
-								The World Famous Green Tortoise Adventure Travel company began over 30 years ago, with one sturdy bus and the realization that beautiful places, great food, and sociable people were the only essentials for exciting and satisfying travel experiences. The Green Tortoise hostels in San Francisco and Seattle are built on this fine tradition. The Green Tortoise San Francisco and Seattle hostels purposely stimulate a social communal experience.  Some friends will remember fondly the old Green Tortoise Hostel on 2nd Ave. in Seattle - but the landlord of that building had some renovation ideas of his own . So, time marches on, and the Green Tortoise evolves to meet and encourage a whole new world of travelers ... while the old landlord was busy knocking down the old green tortoise, we were busy building the best hostel in the world, a super hostel right around the corner ... where every bed is a micro habitat ... that comes with a curtain for a little visual privacy, and a "reading light and a fan" for your comfort and so you can read without disturbing your neighbors (insert picture of finished reading light)... and two extra power points to charge your laptop or cell phone ... this meant a complete upgrade to the building's electrical system.
-							</p>												 							 							 
-					 </div>
-					</div>
-				  </div>
-				</div>
-				<!-- ./slider-modal -->
-				
-				<!-- video-modal -->					
-				<div class="modal fade" id="video-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
-				  <div class="modal-dialog modal-lg">
-					<div class="modal-content">
-					  <div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-						<h2 class="modal-title" id="myModalLabel2">Travel Annex Spotlight</h2>
-					  </div>
-					  <div class="modal-body">								
-							<!-- 16:9 aspect ratio -->
-							<div class="embed-responsive embed-responsive-16by9">
-							  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LYl086_MMZA"></iframe>
-							</div>
-							<br>
-							<p>
-								Published on Feb 5, 2014
-								The Green Tortoise sits in the midst of Seattle's famous Pike Place Market, and is a testament to the city's friendly and adventurous culture. Event Coordinator (and "Fun-Czar") Sacsha tells us a bit about the in's and out's of the establishment and touches on the roots of the idea that hotels are for tourists, but hostels are for travelers. 
-							</p>												 							 
-					 </div>
-					</div>
-				  </div>
-				</div>
-				<!-- ./video-modal -->
-				
-			</div>
-			
-		</div>	
+								
+			</div>			
+		</div>		
 		<!-- ./Home Slider -->
 
 
@@ -196,20 +120,17 @@
 				
 				<div class="row">
 					<div class="col-md-3 col-sm-3 wow fadeInUp showdelay2">
-						<h3>Front Desk</h3>							
-						<p><img class="img-responsive pull-left" src="images/gtbus.jpg" alt="Green Tortoise Front Desk"/></p>
+							
+						<p><img class="img-responsive pull-left" src="images/frontdoor.jpg" alt="Green Tortoise Front Desk"/></p>
 					</div>
 					<div class="col-md-3 col-sm-3 wow fadeInUp showdelay2">
-						<h3>Bikes</h3>
-						<p><img class="img-responsive pull-left" src="images/gtbus.jpg" alt="Green Tortoise Bikes"/></p>
+						<p><img class="img-responsive pull-left" src="images/bikes.jpg" alt="Green Tortoise Bikes"/></p>
+					</div>
+					<div class="col-md-3 col-sm-3 wow fadeInUp showdelay2">							
+						<p><img class="img-responsive pull-left" src="images/luggagestorage.jpg" alt="Green Tortoise Luggage Storage"/></p>
 					</div>
 					<div class="col-md-3 col-sm-3 wow fadeInUp showdelay2">
-						<h3>Luggage Storage</h3>							
-						<p><img class="img-responsive pull-left" src="images/gtbus.jpg" alt="Green Tortoise Luggage Storage"/></p>
-					</div>
-					<div class="col-md-3 col-sm-3 wow fadeInUp showdelay2">
-						<h3>Pub Crawl</h3>
-						<p><img class="img-responsive pull-left" src="images/gtbus.jpg" alt="Green Tortoise Pub Crawl"/></p>
+						<p><img class="img-responsive pull-left" src="images/pubcrawl.jpg" alt="Green Tortoise Pub Crawl"/></p>
 					</div>
 				</div>
 				<!-- /row -->
@@ -224,7 +145,7 @@
 					<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
 						<h3>What we offer</h3>
 						<ul>
-							<li>free breakfast 6am to 10am</li>
+							<li>free breakfast dailfy from 6am to 10am</li>
 							<li>free dinner Sunday, Tuesday & Thursdays</li>
 							<li>free wifi, internet computers and printers</li>
 							<li>free luggage storage</li>
@@ -280,15 +201,7 @@
 							<h3>Private Bathrooms</h3>
 							<a href="#" class="btn btn-custom" data-toggle="modal" data-target="#bathroom-modal">Read More</a>	
 						</div>
-					</div>
-					<div class="featured-box item text-center">
-						<img class="img-responsive img-thumbnail" src="images/sink.jpg" alt="Green Tortoise Room Sink">
-						<div class="featured-info">								
-							<h3>Room Sinks</h3>
-							<a href="#" class="btn btn-custom" data-toggle="modal" data-target="#roomsink-modal">Read More</a>	
-						</div>
-					</div>
-					
+					</div>					
 				</div>
 				<!-- ./featured-list -->
 
@@ -321,7 +234,7 @@
 					  </div>
 					  <div class="modal-body">
 							<h3 class="text-center">Twin Bunk Beds</h3>
-							<p><img class="img-responsive img-full" src="images/queenbed.jpg" alt="Green Tortoise Queen Bed"/>
+							<p><img class="img-responsive img-full" src="images/twinbed.jpg" alt="Green Tortoise Queen Bed"/>
 								Comfy place to crash at the end of a long day.
 							</p>
 					 </div>
@@ -340,7 +253,7 @@
 					  </div>
 					  <div class="modal-body">
 							<h3 class="text-center">Extra Large Room Lockers</h3>
-							<p><img class="img-responsive img-full" src="images/queenbed.jpg" alt="Green Tortoise Queen Bed"/>
+							<p><img class="img-responsive img-full" src="images/lockeropen.jpg" alt="Green Tortoise Queen Bed"/>
 								There’s plenty of space to secure all your stuff below your be. Bring your own lock or grab one at the front desk.
 							</p>
 					 </div>
@@ -367,25 +280,6 @@
 				  </div>
 				</div>
 				<!-- ./featured-modal -->
-
-				<!-- featured-modal -->					
-				<div class="modal fade" id="roomsink-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
-				  <div class="modal-dialog modal-lg">
-					<div class="modal-content">
-					  <div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-						<h2 class="modal-title" id="myModalLabel3">Sinks</h2>
-					  </div>
-					  <div class="modal-body">
-							<h3 class="text-center">Room Sinks</h3>
-							<p><img class="img-responsive img-full" src="images/bathroom.jpg" alt="Green Tortoise Queen Bed"/>
-								Most rooms have a sink & mirror in them so no need to run down the hall to wash your face or brush your teeth.
-							</p>
-					 </div>
-					</div>
-				  </div>
-				</div>
-				<!-- ./featured-modal -->
 								
 			</div>
 					
@@ -398,6 +292,9 @@
 			
 				<div class="section-heading">
 					<h2>Events</h2>
+					<button type="button" class="btn btn-success btn-lg">
+						<a href="https://www.google.com/calendar/embed?src=greentorseattle%40gmail.com&ctz=America/Los_Angeles" target="_blank">Green Tortoise Events Calendar</a>
+					</button>
 				</div>
 				
 				<div class="row">
@@ -411,8 +308,8 @@
 					<div class="col-md-3 col-sm-3 wow fadeInUp showdelay2">
 						<h3>Beneath The Streets</h3>
 						<p><img class="img-responsive img-full" src="images/underground.jpg" alt="Seattle Underground Tour"/>
-							BILL SPEIDEL'S UNDERGROUND TOUR is a leisurely, guided walking tour beneath Seattle’s sidewalks and streets. As you roam the subterranean passages that once were the main roadways and first-floor storefronts of old downtown Seattle, our guides regale you with the stories our pioneers didn’t want you to hear. It’s history with a twist!
-							<a href="http://www.undergroundtour.com/" target="_blank">undergroundtour.com</a>
+							We guide visitors through three sections of the historic underground passageways in Pioneer Square. Our tour guides have been leading tours in this historic district for years. Professional, courteous and knowledgeable, they share a contagious love of history through their tales of Seattle’s amazing past. We truly love what we do. We explore tunnels that have not been offered on a tour before.
+							<a href="http://www.beneath-the-streets.com/" target="_blank">beneath-the-streets.com</a>
 						</p>
 					</div>
 					<div class="col-md-3 col-sm-3 wow fadeInUp showdelay2">
@@ -537,34 +434,28 @@
 					<!-- Contact Form -->
 					<!-- In order to set the email address and subject line for the contact form go to the contact_me.php file. -->
 					<div class="col-md-6 col-sm-6">
-						<div class="contact-form  wow fadeInLeft showdelay2">
-						<form  name="sentMessage" id="contactForm" novalidate>
-							<div class="control-group form-group">
-								<div class="controls">
-									<label>Name</label>
-									<input type="text" class="form-control" id="name" placeholder="Name" required data-validation-required-message="Please enter your name.">
-									<p class="help-block"></p>
-								</div>
-							</div>
-							<div class="control-group form-group">
-								<div class="controls">
-									<label>Email</label>
-									<input type="email" class="form-control" id="email" placeholder="Email Address" required data-validation-required-message="Please enter your email address.">
-									<p class="help-block"></p>
-								</div>
-							</div>
-							<div class="control-group form-group">
-								<div class="controls">
-									<label>Message</label>
-									<textarea class="form-control" rows="7" id="message" placeholder="Message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
-									<p class="help-block"></p>
-								</div>
-							</div>
-							<div id="success"></div>
-							<div class="pull-right">
-							<button type="submit" class="btn btn-custom btn-lg">Submit</button>
-							</div>
-						</form>
+						<div class="alert alert-success" role="alert">
+						<div id="wufoo-zkpn4xv0zapv6b">
+						Fill out my <a href="https://greentortoiseseattle.wufoo.com/forms/zkpn4xv0zapv6b">online form</a>.
+						</div>
+						<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div>
+						<script type="text/javascript">var zkpn4xv0zapv6b;(function(d, t) {
+						var s = d.createElement(t), options = {
+						'userName':'greentortoiseseattle',
+						'formHash':'zkpn4xv0zapv6b',
+						'autoResize':true,
+						'height':'619',
+						'async':true,
+						'host':'wufoo.com',
+						'header':'show',
+						'ssl':true};
+						s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+						s.onload = s.onreadystatechange = function() {
+						var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+						try { zkpn4xv0zapv6b = new WufooForm();zkpn4xv0zapv6b.initialize(options);zkpn4xv0zapv6b.display(); } catch (e) {}};
+						var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+						})(document, 'script');</script>
+
 						<div class="clearfix"></div>
 						</div>
 					</div>
@@ -572,7 +463,7 @@
 					
 					<!-- address -->
 					<div class="col-md-6 col-sm-6">
-						<div class="address  wow fadeInRight showdelay2">
+						<div class="address  wow">
 							<h3>Address</h3>
 							<ul class="unstyled">
 								<li><i class="fa fa-map-marker"></i>105 Pike St. Seattle Washington USA 98101</li>
@@ -580,24 +471,28 @@
 								<li><i class="fa fa-phone"></i>206.340.1222</li>
 							</ul>
 						</div>
-						<div class="social wow fadeInRight showdelay2">
+						<div class="social wow">
 							<h3>Green Tortoise Social Links</h3>
 							<ul class="social-link">
-								<li><a href="https://www.facebook.com/GreenTortoiseSeattle"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="http://www.yelp.com/biz/green-tortoise-hostel-seattle"><i class="fa fa-yelp"></i></a></li>
-								<li><a href="http://www.tripadvisor.com/Hotel_Review-g60878-d123038-Reviews-The_Green_Tortoise_Hostel-Seattle_Washington.html"><i class="fa fa-thumbs-up"></i></a></li>
+								<li><a href="https://www.facebook.com/GreenTortoiseSeattle" target="_blank"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://twitter.com/gtseattlehostel" target="_blank"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="http://www.yelp.com/biz/green-tortoise-hostel-seattle" target="_blank"><i class="fa fa-yelp"></i></a></li>
+								<li><a href="http://www.tripadvisor.com/Hotel_Review-g60878-d123038-Reviews-The_Green_Tortoise_Hostel-Seattle_Washington.html" target="_blank"><i class="fa fa-thumbs-up"></i></a></li>
 							</ul>
 						</div>
-						<div class="social wow fadeInRight showdelay2">
+						<div class="social wow">
 							<h3>We accept payments with</h3>
 							<ul class="social-link">
 								<li><i class="fa fa-usd"></i> US</li>
-								<li><i class="fa fa-usd"></i> Canadian</li>
 								<li><i class="fa fa-cc-visa"></i></li>
 								<li><i class="fa fa-cc-mastercard"></i></li>
 								<li><i class="fa fa-cc-amex"></i></li>
+								<li><i class="fa fa-cc-discover"></i></li>
+								<!-- bitcoin will change hosteling 
 								<li><i class="fa fa-btc"> Soon!!</i></li>
+								eventually!! -->
 							</ul>
+							<em>$20 cash deposit upon checkin (Canadian accepted for deposit only)</em>
 						</div>
 						
 					</div>
@@ -621,6 +516,27 @@
 			</div>
 		</footer>	
 		<!-- ./footer -->
+
+		<!-- begin olark code -->
+		<script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
+		f[z]=function(){
+		(a.s=a.s||[]).push(arguments)};var a=f[z]._={
+		},q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
+		f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
+		0:+new Date};a.P=function(u){
+		a.p[u]=new Date-a.p[0]};function s(){
+		a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
+		hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
+		return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
+		b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
+		b.contentWindow[g].open()}catch(w){
+		c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
+		var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
+		b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
+		loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
+		/* custom configuration goes here (www.olark.com/documentation) */
+		olark.identify('1529-711-10-6284');/*]]>*/</script><noscript><a href="https://www.olark.com/site/1529-711-10-6284/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
+		<!-- end olark code -->
 
 
 		<!-- jQuery  -->
