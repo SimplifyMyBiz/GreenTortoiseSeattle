@@ -6,6 +6,6 @@ At SimplifyMy.Biz we use Open Source and customize it for your business.  We the
 
 ---
 
-# Fullscreen - [wrapbootstrap.com](https://wrapbootstrap.com/theme/fullscreen-simple-one-page-theme-WB0C6339N)
+## Fullscreen - [wrapbootstrap.com](https://wrapbootstrap.com/theme/fullscreen-simple-one-page-theme-WB0C6339N)
 
-## Using the Static BG Top Nav - [live preview](http://wrapbootstrap.com/preview/WB0C6339N)
+### Using the Static BG Top Nav - [live preview](http://wrapbootstrap.com/preview/WB0C6339N)
